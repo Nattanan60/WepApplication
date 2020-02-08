@@ -1,0 +1,10 @@
+img {
+    width: 100%;
+  height: 580px;
+  }
+div {
+    width: 100px;
+    padding: 10px;
+    border: 10px solid gold;
+    margin: 0;
+  }
