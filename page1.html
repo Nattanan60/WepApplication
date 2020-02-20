@@ -8,29 +8,35 @@
 
 <body>
 
-    <form action="data.php" method="post">
+    <form action="data.php" method="GET">
     <center><h2>แบบฟอร์มสมัครแข่งขัน</h2></center>
     
     <div>
     <h3>TEAM NAME: <input type="text" name="team_name" value=""><br></h3> 
-    
-        ชื่อ-นามสกุล ผู้เล่นคนที่1:<input type="text" name="name_mem1" value=""><br>
-        ชื่อ ในเกม ผู้เล่นคนที่1:<input type="text" name="nameingame_mem1" value=""><br>
-        <br>
-        ชื่อ-นามสกุล ผู้เล่นคนที่2:<input type="text" name="name_mem2" value=""><br>
-        ชื่อ ในเกม ผู้เล่นคนที่2:<input type="text" name="nameingame_mem2" value=""><br>
-        <br>
-        ชื่อ-นามสกุล ผู้เล่นคนที่3:<input type="text" name="name_mem3" value=""><br>
-        ชื่อ ในเกม ผู้เล่นคนที่3:<input type="text" name="nameingame_mem3" value=""><br>
-        <br>
-        ชื่อ-นามสกุล ผู้เล่นคนที่4:<input type="text" name="name_mem4" value=""><br>
-        ชื่อ ในเกม ผู้เล่นคนที่4:<input type="text" name="nameingame_mem4" value=""><br>
-        <h4>**สำรองถ้ามี**</h4>
-        ชื่อ-นามสกุล ผู้เล่นคนที่5:<input type="text" name="name_mem5" value=""><br>
-        ชื่อ ในเกม ผู้เล่นคนที่5:<input type="text" name="nameingame_mem5" value=""><br>
-        <br>
-        ชื่อ-นามสกุล ผู้เล่นคนที่6:<input type="text" name="name_mem6" value=""><br>
-        ชื่อ ในเกม ผู้เล่นคนที่6:<input type="text" name="nameingame_mem6" value=""><br>
+     <table border="1">
+        <tr>
+            <td><center>ชื่อ-นามสกุล</center></td> <td><center>ชื่อ ในเกม</center></td>
+            <tr><td> ผู้เล่นคนที่1:<input type="text" name="name_mem1" value=""></td>
+                <td> ผู้เล่นคนที่1:<input type="text" name="nameingame_mem1" value=""></td></tr>
+
+            <tr><td> ผู้เล่นคนที่2:<input type="text" name="name_mem2" value=""></td>
+                <td> ผู้เล่นคนที่2:<input type="text" name="nameingame_mem2" value=""></td></tr>
+
+            <tr><td> ผู้เล่นคนที่3:<input type="text" name="name_mem3" value=""></td>
+                <td> ผู้เล่นคนที่3:<input type="text" name="nameingame_mem3" value=""></td></tr>
+
+            <tr><td> ผู้เล่นคนที่4:<input type="text" name="name_mem4" value=""></td>
+                <td> ผู้เล่นคนที่4:<input type="text" name="nameingame_mem4" value=""></td></tr>
+
+            <td><center>สำรองถ้ามี</center></td><td></td>
+            <tr><td> ผู้เล่นคนที่5:<input type="text" name="name_mem5" value=""></td>
+                <td> ผู้เล่นคนที่5:<input type="text" name="nameingame_mem5" value=""></td></tr>
+
+            <tr><td> ผู้เล่นคนที่6:<input type="text" name="name_mem6" value=""></td>
+                <td> ผู้เล่นคนที่6:<input type="text" name="nameingame_mem6" value=""></td></tr>
+            
+        </tr>    
+    </table>
         <input type="submit" value="บันทึก">
     </div>
         
