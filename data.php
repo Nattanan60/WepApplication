@@ -1,37 +1,28 @@
 <?php
+
+    require("connect.php");
 //teamname
-
-$team_name = $_GET['team_name'];
+    $sql = "SELECT * FROM player ";
+// $team_name = $_GET['team_name'];
 //name
+$result = mysqli_query($conn, $sql);
+echo "id: " . $row["TEAM_NAME"]. " - Name: " . $row["NAME"]. " " . $row["NAME"]. "<br>";
+// $name = $_GET['name'];
+// $name2 = $_GET['name2'];
+// $name3 = $_GET['name3'];
+// $name4 = $_GET['name4'];
+// $name5 = $_GET['name5'];
+// $name6 = $_GET['name6'];
 
-$name_mem1 = $_GET['name_mem1'];
-$name_mem2 = $_GET['name_mem2'];
-$name_mem3 = $_GET['name_mem3'];
-$name_mem4 = $_GET['name_mem4'];
-$name_mem5 = $_GET['name_mem5'];
-$name_mem6 = $_GET['name_mem6'];
-//ingame name
-$nameingame_mem1 = $_GET['nameingame_mem1'];
-$nameingame_mem2 = $_GET['nameingame_mem2'];
-$nameingame_mem3 = $_GET['nameingame_mem3'];
-$nameingame_mem4 = $_GET['nameingame_mem4'];
-$nameingame_mem5 = $_GET['nameingame_mem5'];
-$nameingame_mem6 = $_GET['nameingame_mem6'];
 
-echo $team_name;
-echo $name_mem1;
-echo $name_mem2;
-echo $name_mem3;
-echo $name_mem4;
-echo $name_mem5;
-echo $name_mem6;
+// echo $team_name;
+// echo $name;
+// echo $name2;
+// echo $name3;
+// echo $name4;
+// echo $name5;
+// echo $name6;
 
-echo $nameingame_mem1;
-echo $nameingame_mem2;
-echo $nameingame_mem3;
-echo $nameingame_mem4;
-echo $nameingame_mem5;
-echo $nameingame_mem6;
 
 
 
