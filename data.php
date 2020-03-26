@@ -1,30 +1,23 @@
+<html>
+<head>
+<link rel="stylesheet" href="data1.css">
+<meta charset="UTF-8">
+<title>ตรวจสอบข้อมูลทีม</title>
+</head>
+<body>
+<div>
 <?php
-
-    require("connect.php");
-//teamname
-    $sql = "SELECT * FROM player ";
-// $team_name = $_GET['team_name'];
-//name
-$result = mysqli_query($conn, $sql);
-echo "id: " . $row["TEAM_NAME"]. " - Name: " . $row["NAME"]. " " . $row["NAME"]. "<br>";
-// $name = $_GET['name'];
-// $name2 = $_GET['name2'];
-// $name3 = $_GET['name3'];
-// $name4 = $_GET['name4'];
-// $name5 = $_GET['name5'];
-// $name6 = $_GET['name6'];
-
-
-// echo $team_name;
-// echo $name;
-// echo $name2;
-// echo $name3;
-// echo $name4;
-// echo $name5;
-// echo $name6;
-
-
-
-
-
+$Search = "";
+if(isset($_GET['Search'])) $Search = $_GET['Search'];
 ?>
+<form action="showdata.php" method="get"> 
+    <h2>ค้นหาชื่อทีม</h2>
+    <input type="text" name="Search" placeholder="ชื่อทีมที่ค้นหา" required><br>
+    <input type="submit" value="ค้นหา" class="button1">
+</form>
+<form action="main.php" method="get">
+<input type="submit" value="กลับหน้าหลัก" class="button2">
+</form>
+</div>
+</body>
+</html>

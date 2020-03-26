@@ -1,0 +1,71 @@
+body{
+    background :#000000 url('6.jpg');
+    background-size: cover;
+    overflow: hidden;
+    width: 95vw;
+    height: 100vh;
+  }
+  
+  div {
+      width: auto;
+      height: auto;
+      border: 2px solid rgb(255, 255, 255);
+      background-color: rgba(201, 184, 139, 0.479);
+      border-radius: 10px;
+      padding-left: 5%;
+      padding-top: 20px;
+      padding-right: 35px;
+      padding-bottom: 50px;
+      margin-top: auto;
+      margin-left: 5%;
+      
+    }
+    h2 {
+        margin-top: auto;
+        margin-left: 32%;
+        background: rgba(62, 0, 112, 0.336);
+        font-family: courier;
+        color: rgb(255, 255, 255);
+        width: 350px;
+        height: auto;
+        font-size: 30px;
+        text-align: center;
+        }
+#r1{
+    background-color: rgb(119, 20, 122);
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    
+
+
+}
+#r2{
+    background-color: rgb(119, 20, 122);
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    
+}
+#r3{
+    background-color: rgb(56, 47, 45);
+    font-size: 15px;
+    color:  rgb(209, 221, 230);
+    text-align: center;
+} 
+input[type=submit] {
+    width: 150px;
+    height: auto;
+    color: rgb(218, 170, 0);
+    background-color:rgb(61, 57, 53);
+    border: 1px solid rgb(217, 217, 214);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+input[type=submit]:hover{
+    background-color: rgb(218, 170, 0);
+    color: rgb(61, 57, 53);
+  }

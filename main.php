@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="cssall.css">
+    <link rel="stylesheet" href="main1.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PUBG Phayao Series LEAGUE</title>
-    <style>
-        body {
-          background-image: url('1.jpg');
-        }
-    </style>
 </head>
 <body>
-  
     <center>
+    
         <form action="page1.html" method="post">
                 <input type="submit" value="สมัครเข้าการแข่งขัน" class="button1">
         </form>
@@ -21,5 +16,9 @@
                 <input type="submit" value="ตรวจสอบข้อมูลทีม" class="button2">
         </form>
     </center>
+    <form action="login.php" method="post">
+                <input type="submit" value="ADMIN" class="button3">
+        </form>
+        
 </body>
 </html>

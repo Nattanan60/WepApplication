@@ -1,0 +1,47 @@
+button{
+    background-color: #eba0a0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 16px;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+
+  }
+button:hover{
+    background-color: black;
+    color: white;
+    }
+h1 {
+  padding: 50px 100px;
+  text-transform: uppercase;
+  position: relative;
+  background: rgba(62, 0, 112, 0.336);
+  -webkit-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  font-size: 60px;
+  text-align: center;
+  font-family: courier;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 2px red;
+ }
+ h1:hover {
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+}
+ body{
+    background :#000000 url('pubggg.jpg');
+    background-size: cover;
+    overflow: hidden;
+    width: 99vw;
+    height: 92vh;
+  }
+  

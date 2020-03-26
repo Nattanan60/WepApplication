@@ -1,0 +1,130 @@
+body{
+  background :#000000 url('4.jpg');
+  background-size: cover;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(201, 184, 139, 0.479);
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  #tm{
+    width: 350px;
+    height: auto;
+    border: 2px solid rgba(0, 0, 0, 0.603);
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 13%;
+  }
+  #r1{
+    background-color: rgb(63, 3, 18);
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+  }
+  #r2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #r3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #r4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #r5{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+ 
+  .button1 {
+    width: 300px;
+    height: auto;
+    border: 2px solid rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 20%;
+    color: rgb(255, 255, 255);
+    background-color:rgb(8, 175, 97);
+  }
+  
+  .button2 {
+    width: 300px;
+    height: auto;
+    border: 2px solid rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 20%;
+    color: rgb(255, 255, 255);
+    background-color:rgb(65, 11, 4);
+  }
+  .button3 {
+    width: 300px;
+    height: auto;
+    border: 2px solid rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 20%;
+    color: rgb(5, 8, 187);
+    background-color:rgb(96, 205, 255);
+  }
+  .button1:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(8, 175, 97);
+  }
+  .button2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(65, 11, 4);
+  }
+  .button3:hover{
+    background-color: rgb(5, 8, 187);
+    color: rgb(255, 255, 255);
+  }
+  h2 {
+  padding: 10px 100px;
+  background: rgba(62, 0, 112, 0.336);
+  font-family: courier;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 2px rgb(0, 8, 8);
+  -webkit-transform: translateY(22px);
+  -ms-transform: translateY(22px);
+  transform: translateY(22px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+   }
