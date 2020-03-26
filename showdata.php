@@ -36,6 +36,35 @@ if (mysqli_num_rows($result) > 0) {
 }
 ?>
  </table>
+ <table border="1">
+ <tr id="r2">
+        <td>ชื่อทีม</td>
+        <td>ชื่อในเกมผู้เล่นคนที่1</td>
+        <td>ชื่อในเกมผู้เล่นคนที่2</td>
+        <td>ชื่อในเกมผู้เล่นคนที่3</td>
+        <td>ชื่อในเกมผู้เล่นคนที่4</td>
+        </tr>
+        <?php
+require("connect.php");
+$Search = $_GET['Search'];
+$sql = "SELECT * FROM player ";
+
+$result = mysqli_query($conn, $sql);
+if (mysqli_num_rows($result) > 0) {
+    while($row = mysqli_fetch_assoc($result)) {
+    if($Search == $row['TEAM_NAME']){
+    echo "<tr>"; 
+    echo "<td><input type='text' name='teame_name' id='r3' value=" . $row["TEAM_NAME"] . " readonly></td>";
+    echo "<td><input type='text' name='nameingame' id='r3' value=" . $row["INGAME"] . " readonly></td>"; 
+    echo "<td><input type='text' name='nameingame2' id='r3' value=" . $row["INGAME2"] . " readonly></td>"; 
+    echo "<td><input type='text' name='nameingame3' id='r3' value=" . $row["INGAME3"] . " readonly></td>"; 
+    echo "<td><input type='text' name='nameingame4' id='r3' value=" . $row["INGAME4"] . " readonly></td>";  
+    echo "</tr>";
+    }
+}
+}
+?>
+</table>
  <form action="data.php" method="get">
 <input type="submit" value="กลับ" class="button1">
 </form></div>
