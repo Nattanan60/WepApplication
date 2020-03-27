@@ -1,5 +1,5 @@
 body{
-    background :#000000 url('6.jpg');
+    background :#000000 url('11.jpg');
     background-size: cover;
     overflow: hidden;
     width: 95vw;
@@ -7,53 +7,59 @@ body{
   }
   
   div {
-      width: auto;
+      width: 450px;
       height: auto;
       border: 2px solid rgb(255, 255, 255);
-      background-color: rgba(201, 184, 139, 0.479);
+      background-color: rgba(20, 92, 175, 0.479);
       border-radius: 10px;
       padding-left: 5%;
       padding-top: 20px;
       padding-right: 35px;
       padding-bottom: 50px;
-      margin-top: auto;
-      margin-left: 5%;
-      
+      position: absolute;
+    top: 25%;
+    left: 35%;
     }
     h2 {
         margin-top: auto;
-        margin-left: 32%;
-        background: rgba(62, 0, 112, 0.336);
+        background: rgba(92, 1, 39, 0.336);
         font-family: courier;
         color: rgb(255, 255, 255);
-        width: 350px;
+        width: 450px;
         height: auto;
         font-size: 30px;
         text-align: center;
         }
 #r1{
-    background-color: rgb(119, 20, 122);
+    background-color: rgb(20, 122, 100);
     font-size: 15px;
     color: white;
     text-align: center;
     
 
 
-}
-#r2{
-    background-color: rgb(119, 20, 122);
-    font-size: 15px;
-    color: white;
-    text-align: center;
-    
 }
 #r3{
     background-color: rgb(56, 47, 45);
     font-size: 15px;
     color:  rgb(209, 221, 230);
     text-align: center;
+    width: 150px;
 } 
 input[type=submit] {
+    background-color: rgb(56, 47, 45);
+    font-size: 15px;
+    color:  rgb(209, 221, 230);
+    text-align: center;
+    width: 130px;
+    
+
+} 
+input[type=submit]:hover{
+    background-color: rgb(209, 221, 230);
+    color:  rgb(56, 47, 45);
+  }
+#btn{
     width: 150px;
     height: auto;
     color: rgb(218, 170, 0);
@@ -63,9 +69,9 @@ input[type=submit] {
     padding: 10px;
     font-size: 15px;
     margin-top: 10px;
-    margin-left: 40%;
+    margin-left: 35%;
 }
-input[type=submit]:hover{
+#btn:hover{
     background-color: rgb(218, 170, 0);
     color: rgb(61, 57, 53);
   }
