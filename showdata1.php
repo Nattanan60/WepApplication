@@ -55,10 +55,10 @@ if (mysqli_num_rows($result) > 0) {
     if($teame_name == $row['TEAM_NAME']){
     echo "<tr>"; 
     echo "<td id='r4'></td>";
-    echo "<td><input type='text' name='nameingame' id='r3' value=" . $row["INGAME"] . " readonly></td>"; 
-    echo "<td><input type='text' name='nameingame2' id='r3' value=" . $row["INGAME2"] . " readonly></td>"; 
-    echo "<td><input type='text' name='nameingame3' id='r3' value=" . $row["INGAME3"] . " readonly></td>"; 
-    echo "<td><input type='text' name='nameingame4' id='r3' value=" . $row["INGAME4"] . " readonly></td>";  
+    echo "<td><input type='text' name='ingame' id='r3' value=" . $row["INGAME"] . " readonly></td>"; 
+    echo "<td><input type='text' name='ingame2' id='r3' value=" . $row["INGAME2"] . " readonly></td>"; 
+    echo "<td><input type='text' name='ingame3' id='r3' value=" . $row["INGAME3"] . " readonly></td>"; 
+    echo "<td><input type='text' name='ingame4' id='r3' value=" . $row["INGAME4"] . " readonly></td>";  
     echo "</tr>";
     }
 }

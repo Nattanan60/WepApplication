@@ -6,7 +6,7 @@ body{
     height: 100vh;
   }
   
-  div {
+  #grob {
       width: 450px;
       height: auto;
       border: 2px solid rgb(255, 255, 255);
@@ -75,3 +75,18 @@ input[type=submit]:hover{
     background-color: rgb(218, 170, 0);
     color: rgb(61, 57, 53);
   }
+#textCount{
+    width: auto;
+    height: auto;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(206, 204, 200, 0.479);
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: auto;
+    left: 75%;
+    right: 2%;
+}

@@ -10,7 +10,7 @@ body{
       width: auto;
       height: auto;
       border: 2px solid rgb(255, 255, 255);
-      background-color: rgba(201, 184, 139, 0.479);
+      background-color: rgba(167, 193, 223, 0.479);
       border-radius: 10px;
       padding-left: 5%;
       padding-top: 20px;
@@ -20,10 +20,11 @@ body{
       margin-left: 5%;
       
     }
+   
     h2 {
         margin-top: auto;
         margin-left: 32%;
-        background: rgba(62, 0, 112, 0.336);
+        background: rgba(99, 2, 55, 0.336);
         font-family: courier;
         color: rgb(255, 255, 255);
         width: 350px;
@@ -51,6 +52,20 @@ body{
     text-align: center;
     width: 195px;
 } 
+#r5{
+    background-color: rgb(119, 20, 122);
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+#r6{
+    background-color: rgb(56, 47, 45);
+    font-size: 20px;
+    color:  rgb(209, 221, 230);
+    text-align: center;
+    
+}
 input[type=submit] {
     background-color: rgb(56, 47, 45);
     font-size: 15px;
