@@ -67,7 +67,8 @@ if($txtSearch != null) {
 }
     // 2. STATUS_TH
 else if($txtSearch1 != null) {
-    $sql .= "WHERE NAME = '". $txtSearch1 . "' or NAME2 = '". $txtSearch1 . "' or NAME3 =  '" . $txtSearch1 . "' or NAME4 =  '". $txtSearch1 ."'" ;
+    // $sql .= "WHERE NAME = '". $txtSearch1 . "' or NAME2 = '". $txtSearch1 . "' or NAME3 =  '" . $txtSearch1 . "' or NAME4 =  '". $txtSearch1 ."'" ;
+    $sql .= "WHERE NAME LIKE '%". $txtSearch1 . "%' or NAME2 LIKE '%". $txtSearch1 . "%' or NAME3 LIKE  '%" . $txtSearch1 . "%' or NAME4 LIKE '%". $txtSearch1 ."%'" ;
     $result = mysqli_query($conn, $sql);
     if (mysqli_num_rows($result) > 0) {
     while($row = mysqli_fetch_assoc($result)) {
@@ -79,11 +80,11 @@ else if($txtSearch1 != null) {
         echo "<td id='r6'>ชื่อผู้เล่นคนที่4</td>";
         echo "</tr>";
         echo "<tr >";
-        echo "<td><input type='text' name='teame_name' id='r5' value=" . $row["TEAM_NAME"] . " ></td>";
-        echo "<td><input type='text' name='NAME' id='r5' value=" . $row["NAME"] . " ></td>"; 
-        echo "<td><input type='text' name='NAME2' id='r5' value=" . $row["NAME2"] . " ></td>"; 
-        echo "<td><input type='text' name='NAME3' id='r5' value=" . $row["NAME3"] . " ></td>"; 
-        echo "<td><input type='text' name='NAME4' id='r5' value=" . $row["NAME4"] . " ></td>";  
+        echo "<td><input type='text' name='teame_name' id='r5' value=" . $row["TEAM_NAME"] . " readonly></td>";
+        echo "<td><input type='text' name='NAME' id='r5' value=" . $row["NAME"] . " readonly></td>"; 
+        echo "<td><input type='text' name='NAME2' id='r5' value=" . $row["NAME2"] . " readonly></td>"; 
+        echo "<td><input type='text' name='NAME3' id='r5' value=" . $row["NAME3"] . " readonly></td>"; 
+        echo "<td><input type='text' name='NAME4' id='r5' value=" . $row["NAME4"] . " readonly></td>";  
         echo "</tr>";
         }
 }
